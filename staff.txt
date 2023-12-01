@@ -1,0 +1,7 @@
+<html>
+<head>
+<title>STAFF</title>
+</head>
+<body>
+<h1>About The College</h1>
+<center><img src="principal.jpg"></center>

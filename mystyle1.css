@@ -1,0 +1,85 @@
+html, body{
+margin: 0px;
+    background: url("clgg.jpg") no-repeat center;
+    background-size: cover;
+}
+#menu ul
+{
+list-style:none;
+box-shadow: 10px 25px 75px 30px white;
+opacity: 0.98;
+}
+#menu ul li
+{
+background-color: #005BFC;
+border:1px solid #005BFC;
+width: 180px;
+height:65px;
+line-height:65px;
+text-align:center;
+float:center;
+position: relative;
+border-radius: 8px;
+margin: 1.5px;
+}
+#menu
+{
+margin: auto;
+}
+#menu ul li:nth-child(2){
+width:180px;
+}
+#menu ul li:nth-child(3){
+width:180px;
+}
+#menu ul li:nth-child(6){
+width:180px;
+}
+#menu ul li:nth-child(7){
+width:180px;
+}
+#menu ul li:nth-child(8){
+width:135px;
+}
+
+#menu ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+font-family:"Maiandra GD";
+font-size: 125%;
+}
+#menu ul li a:hover
+{
+background-color:#229954;
+border:1px solid #229954;
+border-radius: 7px;
+font-size: 120%;
+font-family:"Maiandra GD";
+box-shadow: 0px 0px 20px 0px white;
+}
+#menu ul ul
+{
+position:absolute;
+display: none;
+}
+#menu ul li:hover > ul
+{
+display: block;
+}
+#menu ul li:hover > ul
+{
+animation: load 1s forwards;
+animation-duration: 600ms;
+animation-name: menu;
+}
+@keyframes menu{
+0%{
+opacity: 0;
+transform: rotateY(-90deg) translateY(30px);
+}
+100%{
+opacity: 1;
+transform: rotateY(0deg) translateY(0px);
+}
